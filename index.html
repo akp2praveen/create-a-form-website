@@ -1,0 +1,78 @@
+# build-a-personal-portfolio-website
+
+<link rel="stylesheet" href="form.css">
+<h1 id="title"> how can the NBA improve their entertainment value?</h1>
+<p id="description">Thank you for taking the time to help the NBA improve</p>
+
+<form id="survey-form">
+    <div class="input-element">
+        <label id="name-label">
+            name
+        </label>
+        <input placeholder="name" id="name" name=name type="text" required />
+    </div>
+    <div class="input-element">
+        <label id="email-label">
+            Email
+        </label>
+        <input placeholder="email" id="email" name=name type="email" required />
+    </div>
+    <div class="input-element">
+        <label id="number-label">
+            Age
+        </label>
+        <input placeholder="age" id="number" min="5" max="100" name=name type="number" required />
+    </div>
+    <div class="input-element">
+        <label id="select-label">
+            who's your favoutive ?
+        </label>
+        <select>
+            <option>mother</option>
+            <option>father</option>
+            <option>God</option>
+        </select>
+    </div>
+    <div>
+        <label>Have you been to a game before?</label>
+        <div>
+            <label>
+                <input type="radio" name="name"  value="yes"/>
+                yes
+            </label>
+        </div>
+        <div>
+            <label><input type="radio" name="name" value="no"/>
+                no</label>
+        </div>
+    </div>
+    <div>
+        <label>which suggestion are good ideas for the NBA to implement?</label>
+        <div>
+            <label><input type="checkbox" name="ideas" value="playin" />
+                play in game</label>
+        </div>
+        <div>
+            <label><input type="checkbox" name="ideas" value="tickets" />
+                cheaper tickers</label>
+        </div>
+        <div>
+            <label><input type="checkbox" name="ideas" value="food" />
+                cheper foods</label>
+        </div>
+        <div>
+            <label><input type="checkbox" name="ideas" value="calls" />
+                less ref calls</label>
+        </div>
+        <div>
+            <label><input type="checkbox" name="ideas" value="superteams" />
+                super teams</label>
+        </div>
+    </div>
+    <div>
+        <label> Additional comments</label>
+        <textarea type="text"></textarea>
+    </div>
+    <button type="submit" id="submit">submit</button>
+
+</form>
